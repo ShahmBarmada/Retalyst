@@ -1,0 +1,14 @@
+resources/
+client/node_modules
+client/.next
+client/out
+client/build
+
+server/node_modules
+server/migrations
+server/dist
+server/build
+
+.env
+*.tsbuildinfo
+next-env.d.ts
