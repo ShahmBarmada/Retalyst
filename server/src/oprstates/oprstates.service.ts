@@ -6,7 +6,7 @@ import { CreateOprstateDto } from './dto/create-oprstate.dto';
 import { UpdateOprstateDto } from './dto/update-oprstate.dto';
 
 @Injectable()
-export class OprtypesService {
+export class OprstatesService {
   constructor(
     @InjectRepository(OprStates)
     private oprStatesRepository: Repository<OprStates>,
